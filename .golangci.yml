@@ -1,0 +1,28 @@
+run:
+  gocyclo:
+    min-complexity: 15
+  tests: false
+  timeout: 2m
+linters:
+  disable-all: true
+  enable:
+    - bodyclose
+    - deadcode
+    - errcheck
+    - gocritic
+    - gocyclo
+    - gofmt
+    - goimports
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - misspell
+    - nakedret
+    - staticcheck
+    - structcheck
+    - stylecheck
+    - typecheck
+    - unconvert
+    - unused
+    - varcheck
